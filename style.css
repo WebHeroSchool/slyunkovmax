@@ -1,13 +1,13 @@
 .logo,
-.main__title {
+.main-content__title {
     font-family: 'PT Serif', serif;
     font-style: normal;
     font-weight: bold;
 }
 
-.menu__link,
-.main__text,
-.main__button {
+.menu__item,
+.main-content__subtitle,
+.main-content__button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
