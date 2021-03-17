@@ -1,0 +1,14 @@
+.logo,
+.main-content__title {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.menu__item,
+.main-content__subtitle,
+.main-content__button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
