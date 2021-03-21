@@ -1,16 +1,3 @@
-.main-content__title {
-    font-family: 'PT Serif', serif;
-    font-style: normal;
-    font-weight: bold;
-}
-
-.main-content__subtitle,
-.main-content__button {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-}
-
 .body {
     margin: 0;
 }
@@ -23,11 +10,12 @@
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 
 .logo {
     padding: 40px 0 40px 44px;
-    font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
+    font: bold 24px/32px pt_serifbold, arial, helvetica, sans-serif;
     position: relative;
 }
 
@@ -108,15 +96,44 @@
     width: 100%;
 }
 
-.main-section {
-    display: flex;
-    margin: 200px 0 0;
+.main {
+    padding: 80px 62% 130px 0;
+    background: top right no-repeat url(./img/mainImg.svg);
 }
 
-.main-content__title {
+.main__title {
     margin: 0 0 40px;
+    font: 700 66px/88px pt_serifbold, arial, helvetica, sans-serif;
 }
 
-.main-content__subtitle {
+.main__title-text_highlights {
+    background: #ECF3FF;
+}
+
+.main__subtitle {
     margin: 0 0 41px;
+    font: 500 22px/26px robotoregular, arial, helvetica, sans-serif;
+}
+
+.main__button {
+    display: inline-block;
+    font: 500 18px/21px robotoregular, arial, helvetica, sans-serif;
+    color: #FFF;
+    background: #0056EC;
+    padding: 18px 21px;
+    text-decoration: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+}
+
+.main__button:hover {
+    opacity: 0.7;
 }
