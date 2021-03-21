@@ -12,3 +12,34 @@
     font-style: normal;
     font-weight: 500;
 }
+
+.body {
+    margin: 0;
+}
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 40px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    padding: 0 13px;
+}
+
+.menu__item:last-child {
+    padding-right: 0;
+}
