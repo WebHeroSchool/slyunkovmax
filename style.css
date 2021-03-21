@@ -4,7 +4,6 @@
     font-weight: bold;
 }
 
-.menu__item,
 .main-content__subtitle,
 .main-content__button {
     font-family: 'Roboto', sans-serif;
@@ -40,7 +39,7 @@
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    opacity: .7;
+    opacity: 0.7;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -67,11 +66,46 @@
 }
 
 .menu__item {
-    padding: 0 13px;
+    position: relative;
+    margin-right: 26px;
+    font: 500 18px/21px robotoregular, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
 }
 
 .menu__item:last-child {
-    padding-right: 0;
+    margin-right: 0;
+}
+
+.menu__item::after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background: #0056EC;
+    opacity: 0;
+    transition: opacity 0.5s, width 0.5s;
+    -webkit-transition: opacity 0.5s, width 0.5s;
+    -moz-transition: opacity 0.5s, width 0.5s;
+    -ms-transition: opacity 0.5s, width 0.5s;
+    -o-transition: opacity 0.5s, width 0.5s;
+}
+
+.menu__item:hover {
+    opacity: 0.7;
+}
+
+.menu__item:hover::after,
+.menu__item_active::after {
+    opacity: 1;
+    width: 100%;
 }
 
 .main-section {
