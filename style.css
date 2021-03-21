@@ -3,14 +3,13 @@
 }
 
 .wrapper {
-    margin: auto;
-    width: 80%;
+    margin: 0 201px 0 195px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
+    margin-bottom: 123px;
 }
 
 .logo {
@@ -56,6 +55,7 @@
 .menu__item {
     position: relative;
     margin-right: 26px;
+    padding-top: 4px;
     font: 500 18px/21px robotoregular, arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
@@ -97,12 +97,12 @@
 }
 
 .main {
-    padding: 80px 62% 130px 0;
-    background: top right no-repeat url(./img/mainImg.svg);
+    padding: 80px 62% 145px 0;
+    background: center right no-repeat url(./img/mainImg.svg);
 }
 
 .main__title {
-    margin: 0 0 40px;
+    margin: 0 0 33px;
     font: 700 66px/88px pt_serifbold, arial, helvetica, sans-serif;
 }
 
@@ -112,6 +112,7 @@
 
 .main__subtitle {
     margin: 0 0 41px;
+    width: 455px;
     font: 500 22px/26px robotoregular, arial, helvetica, sans-serif;
 }
 
