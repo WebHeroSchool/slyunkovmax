@@ -103,6 +103,7 @@
 .main {
     padding: 80px 62% 145px 0;
     background: center right no-repeat url(./img/mainImg.svg);
+    margin-bottom: 124px;
 }
 
 .main__title {
@@ -142,4 +143,26 @@
 
 .main__button:hover {
     opacity: 0.7;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__cicle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0.7;
+    background: #C8DBFB;
+    margin-right: 4px;
+}
+
+.footer__cicle:first-child {
+    margin-left: 5px;
+}
+
+.footer__cicle:last-child {
+    margin-right: 0;
 }
