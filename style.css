@@ -9,19 +9,19 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 123px;
+    margin-bottom: 124px;
 }
 
 .logo {
-    padding: 40px 0 40px 44px;
-    font: bold 24px/32px pt_serifbold, arial, helvetica, sans-serif;
+    padding: 39px 0 40px 45px;
+    font: 700 24px/32px pt_serifbold, arial, helvetica, sans-serif;
     position: relative;
 }
 
 .logo__circle {
     position: absolute;
-    left: 0;
-    top: 50%;
+    left: 1px;
+    top: 49%;
     transform: translateY(-50%);
     width: 28px;
     height: 28px;
@@ -43,7 +43,7 @@
 
 .logo__circle_color_blue {
     left: 8px;
-    top: 56%;
+    top: 54%;
     background: #C8DBFB;
 }
 
@@ -54,8 +54,8 @@
 
 .menu__item {
     position: relative;
-    margin-right: 26px;
-    padding-top: 4px;
+    margin-right: 28px;
+    padding-top: 5px;
     font: 500 18px/21px robotoregular, arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
@@ -64,6 +64,10 @@
     -moz-transition: opacity 0.5s;
     -ms-transition: opacity 0.5s;
     -o-transition: opacity 0.5s;
+}
+
+.menu__item:nth-child(2) {
+    margin-right: 25px;
 }
 
 .menu__item:last-child {
@@ -99,6 +103,7 @@
 .main {
     padding: 80px 62% 145px 0;
     background: center right no-repeat url(./img/mainImg.svg);
+    margin-bottom: 124px;
 }
 
 .main__title {
@@ -111,7 +116,7 @@
 }
 
 .main__subtitle {
-    margin: 0 0 41px;
+    margin: 0 0 42px;
     width: 455px;
     font: 500 22px/26px robotoregular, arial, helvetica, sans-serif;
 }
@@ -122,6 +127,7 @@
     color: #FFF;
     background: #0056EC;
     padding: 18px 21px;
+    width: 230px;
     text-decoration: none;
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -137,4 +143,26 @@
 
 .main__button:hover {
     opacity: 0.7;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__cicle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0.7;
+    background: #C8DBFB;
+    margin-right: 4px;
+}
+
+.footer__cicle:first-child {
+    margin-left: 5px;
+}
+
+.footer__cicle:last-child {
+    margin-right: 0;
 }
