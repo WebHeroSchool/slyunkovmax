@@ -103,7 +103,7 @@
 .main {
     padding: 80px 62% 145px 0;
     background: center right no-repeat url(../img/mainImgMax.svg);
-    margin-bottom: 124px;
+    margin-bottom: 104px;
 }
 
 .main__title {
@@ -148,6 +148,7 @@
 .footer {
     display: flex;
     justify-content: center;
+    padding: 20px 0;
 }
 
 .footer__cicle {
@@ -207,7 +208,6 @@
     }
 
     .menu__item {
-        margin-right: 28px;
         padding-top: 7px;
         font-size: 14px;
         line-height: 16px;
@@ -224,7 +224,7 @@
     .main {
         padding: 0 42% 87px 0;
         background: top right no-repeat url(../img/mainImgMedium.svg);
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 
     .main__title {
@@ -251,5 +251,16 @@
 
     .footer__cicle:first-child {
         margin-left: 2px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+        margin: 0 46px;
+        width: 91%;
+    }
+
+    .menu__item:last-child {
+        margin-right: 0px;
     }
 }
